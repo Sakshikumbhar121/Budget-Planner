@@ -1,0 +1,143 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    background-color:  #e2c3ce9d;
+    padding: 40px;
+    position: relative;
+    top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+.main-container .container h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(86, 11, 156);
+}
+.main-container .container h3{
+    color: rgb(21, 91, 170);
+    font-size: 25px;
+    font-weight: 900;
+    font-family:  sans-serif;
+}
+.main-container .container hr{
+    margin: 19px;
+}
+.input-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    margin-bottom: 8px;
+}
+
+.input-form .form-group label {
+    font-weight: bold;
+    font-size : 14px;
+    margin-bottom: 4px;
+}
+
+.input-form .form-control {
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+}
+
+.input-form .form-control:focus {
+    background: #74acb3;
+    outline: none;
+}
+.input-form .form-group  input{
+    border: 2px solid black;
+   
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #6fa1db, #80ced6);
+    color: black;
+    padding: 12px 24px;
+    border: 1px solid rgb(81, 184, 184);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    
+}
+
+.btn-primary:hover {
+    background: #d86744;
+}
+
+.table {
+    width: 100%;
+    border: 2px solid rgb(32, 36, 36);
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 2px solid #131518;
+    text-align: left;
+}
+
+.table th {
+    background-color: #8a9fb4;
+    font-weight: bold;
+}
+.table tr th{
+    font-size: 14px;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #a5c2df;
+   
+}
+.table tbody tr:nth-child(odd) {
+   background-color: #a5c2df;
+}
+
+.table tbody tr:hover {
+   background-color: #d8b4b4;
+}
+
+.total-todoTrans {
+    background-color: #7ce4d6;
+    padding: 13px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.disabled-dropdown {
+    color: #49637a;
+    background-color: #e9ecef;
+    pointer-events: none;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #008080, #80ced6);
+    padding: 5px 10px;
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 800px;
+    margin: 0 auto;
+}
+.navbar h2{
+    margin: 5px;
+    color: rgb(247, 242, 247);
+    font-family: serif;
+}
+
+.strikeout {
+    text-decoration: line-through;
+}
